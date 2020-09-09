@@ -1,7 +1,7 @@
 # Loan Prediction
 This repository contains my very first machine learning project, which objective is to properly classify eligible and non-eligilbe customers, in order to automate the loan application process. This particular classification problem is available at: [Analytics Vidhya](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/) as a part of their hackathons. As the dataset was rather balanced (the proportion of eligible vs. non-eligible customers was 7:3), accuracy (percentage of cerrectly predicted cases) was the metric used to evaluate the results. After testing a wide range of models, logistic regression became the method of choice with the accuracy of **UZUPEŁNIJ**.
 
-The project is divided into **UZUPEŁNIJ** parts:
+The project is divided into 7 parts:
 1. Problem Statement
 2. Hypothesis generation
 3. Data collection
