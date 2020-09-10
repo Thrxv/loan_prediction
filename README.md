@@ -1,14 +1,15 @@
 # Loan Prediction
-This repository contains my very first machine learning project, which objective is to properly classify eligible and non-eligilbe customers, in order to automate the loan application process. This particular classification problem is available at: [Analytics Vidhya](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/) as a part of their hackathons. As the dataset was rather balanced (the proportion of eligible vs. non-eligible customers was 7:3), accuracy (percentage of cerrectly predicted cases) was the metric used to evaluate the results. After testing a wide range of models, SVC with a sigmoid kernel became the method of choice with the accuracy of 82.74%.
+This repository contains my very first machine learning project, which objective is to properly classify eligible and non-eligilbe customers, in order to automate the loan application process. This particular classification problem is available at: [Analytics Vidhya](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/) as a part of their hackathons. As the dataset was rather balanced (the proportion of eligible vs. non-eligible customers was 7:3), accuracy (percentage of cerrectly predicted cases) was the metric used to evaluate the results. After testing a wide range of models, SVC with a polynomial kernel became the method of choice with the accuracy of 81.82%.
 
-The project is divided into 7 parts:
-1. Problem Statement
+The project is divided into 8 parts:
+1. Problem statement
 2. Hypothesis generation
-3. Data collection
+3. Data overwiev
 4. Exploratory Data Analysis (EDA)
-5. Data pre-processing
-6. Model building and evaluating
-7. Summary
+5. Feature engineering
+6. Data pre-processing
+7. Training, evaluating and improving the models
+8. Summary
 
 # Problem statement
 "Dream Housing Finance company deals in all kinds of home loans. They have presence across all urban, semi urban and rural areas. Customer      first applies for home loan and after that company validates the customer eligibility for loan.
