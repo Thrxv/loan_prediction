@@ -1,5 +1,5 @@
 # Loan Prediction
-This repository contains my very first machine learning project, which objective is to properly classify eligible and non-eligilbe customers, in order to automate the loan application process. This particular classification problem is available at: [Analytics Vidhya](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/) as a part of their hackathons. As the dataset was rather balanced (the proportion of eligible vs. non-eligible customers was 7:3), accuracy (percentage of cerrectly predicted cases) was the metric used to evaluate the results. After testing a wide range of models, logistic regression became the method of choice with the accuracy of **UZUPEŁNIJ**.
+This repository contains my very first machine learning project, which objective is to properly classify eligible and non-eligilbe customers, in order to automate the loan application process. This particular classification problem is available at: [Analytics Vidhya](https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/) as a part of their hackathons. As the dataset was rather balanced (the proportion of eligible vs. non-eligible customers was 7:3), accuracy (percentage of cerrectly predicted cases) was the metric used to evaluate the results. After testing a wide range of models, SVC with a sigmoid kernel became the method of choice with the accuracy of 82.74%.
 
 The project is divided into 7 parts:
 1. Problem Statement
@@ -23,4 +23,4 @@ Basically customers can be divided into two groups: those who are eligilble for 
 5. Decision tree classifier
 6. Random forest classifier
 
-Apart from that it is worth to develop and evaluate XGBoost and CatBoost classifiers, as examples of ensemble learning algotihms, which has been shown to perform better in some cases in comparison to above mentioned models.
+Apart from that it is worth to develop and evaluate XGBoost and CatBoost classifiers, as examples of ensemble learning algorithms, which has been shown to perform better in some cases in comparison to above mentioned models.
